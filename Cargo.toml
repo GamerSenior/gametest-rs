@@ -1,0 +1,12 @@
+[package]
+name = "termgame"
+version = "0.1.0"
+authors = ["Giovani Garcia <giovani.abel@supportweb.com.br>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+specs = "0.14.0"
+specs-derive = "0.4.0"
+sdl2 = "0.32.2"
