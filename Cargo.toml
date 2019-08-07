@@ -9,4 +9,8 @@ edition = "2018"
 [dependencies]
 specs = "0.14.0"
 specs-derive = "0.4.0"
-sdl2 = { version = "0.32.2", features = ["image"]}
+
+[dependencies.sdl2]
+    version = "0.32"
+    default-features = false
+    features = ["ttf","image","gfx","mixer"]
